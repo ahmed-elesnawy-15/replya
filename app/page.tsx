@@ -30,6 +30,78 @@ export default function Home() {
           Start Building
         </button>
       </section>
+      <section className="px-8 py-20">
+  <h2 className="text-center text-4xl font-bold">
+    Everything your business needs
+  </h2>
+
+  <div className="mt-12 grid gap-8 md:grid-cols-3">
+    <div className="rounded-2xl bg-slate-900 p-8">
+      <h3 className="text-2xl font-bold">
+        🤖 AI Customer Support
+      </h3>
+      <p className="mt-4 text-slate-300">
+        Reply to customers instantly with an AI assistant.
+      </p>
+    </div>
+
+    <div className="rounded-2xl bg-slate-900 p-8">
+      <h3 className="text-2xl font-bold">
+        📄 Business Knowledge
+      </h3>
+      <p className="mt-4 text-slate-300">
+        Upload your information and let Replya learn your business.
+      </p>
+    </div>
+
+    <div className="rounded-2xl bg-slate-900 p-8">
+      <h3 className="text-2xl font-bold">
+        ⚡ Available 24/7
+      </h3>
+      <p className="mt-4 text-slate-300">
+        Help your customers anytime without waiting.
+      </p>
+    </div>
+  </div>
+</section>
+<section className="px-8 py-20">
+  <h2 className="text-center text-4xl font-bold">
+    How Replya works
+  </h2>
+
+  <div className="mt-12 grid gap-8 md:grid-cols-3">
+    <div className="text-center">
+      <div className="text-5xl">📄</div>
+      <h3 className="mt-4 text-2xl font-bold">
+        Upload your data
+      </h3>
+      <p className="mt-3 text-slate-300">
+        Add your services, prices, and business information.
+      </p>
+    </div>
+
+    <div className="text-center">
+      <div className="text-5xl">🤖</div>
+      <h3 className="mt-4 text-2xl font-bold">
+        AI learns your business
+      </h3>
+      <p className="mt-3 text-slate-300">
+        Replya understands your information and answers customers.
+      </p>
+    </div>
+
+    <div className="text-center">
+      <div className="text-5xl">🚀</div>
+      <h3 className="mt-4 text-2xl font-bold">
+        Grow faster
+      </h3>
+      <p className="mt-3 text-slate-300">
+        Automate conversations and focus on your business.
+      </p>
+    </div>
+  </div>
+</section>
+
     </main>
   );
 }
